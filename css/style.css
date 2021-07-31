@@ -1,0 +1,143 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: proxima-nova, sans-serif;
+    color: #161616;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+    color: #161616;
+}
+
+p {
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.md-btn {
+    display: inline-block;
+    background-color: #0E7FFF;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 100px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.md-btn:hover {
+    background-color: #5faaff;
+    transition: 0.3s ease-in-out;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+    .section-padding {
+        padding: 60px 0;
+    }
+}
+
+/* Navbar */
+
+.navbar {
+    padding: .5rem 0rem;
+}
+
+.navbar-brand {
+    color: #161616;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #161616;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #161616;
+}
+
+.navbar-light .navbar-toggler {
+    color: #161616;
+    border: none;
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* Hero Section */
+
+.md-hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    line-height: 48px;
+}
+
+.md-hero-section img {
+    width: 80%;
+}
+
+@media (max-width: 991px) {
+    .md-hero-row .col-lg-6:first-child {
+        order: 1;
+        text-align: center;
+    }
+
+    .md-hero-row .col-lg-6:last-child {
+        order: 0;
+    }
+
+    .md-hero-section img {
+        margin-bottom: 50px;
+    }
+
+    .md-hero-section h1 {
+        font-size: 34px;
+        text-align: center;
+        padding-right: 0;
+        line-height: 40px;
+    }
+}
+
+/* About Me Section */
+
+.md-about-section {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.md-about-section h2 {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+    .md-about-section {
+        width: 100%;
+    }
+}
